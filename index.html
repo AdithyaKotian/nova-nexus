@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVA Nexus | Futuristic Tech Blog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Orbitron', sans-serif;
+        }
+        body {
+            background: linear-gradient(to right, #0f0f0f, #1a1a1a);
+            color: #e0e0e0;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background: #121212;
+            border-bottom: 1px solid #333;
+        }
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #00ffe7;
+        }
+        nav a {
+            color: #e0e0e0;
+            margin: 0 20px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color: #00ffe7;
+        }
+        .hero {
+            background: url('https://images.unsplash.com/photo-1531514424665-8a5d60b92957') no-repeat center center/cover;
+            height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+        }
+        .hero h1 {
+            font-size: 60px;
+            color: #ffffff;
+            text-shadow: 2px 2px 8px #000;
+        }
+        .content {
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .content h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #00ffe7;
+        }
+        .content p {
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+        .blog-card {
+            background: #1f1f1f;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 30px;
+            transition: 0.3s;
+        }
+        .blog-card:hover {
+            background: #292929;
+        }
+        .blog-card img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .blog-card h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #00ffe7;
+        }
+        footer {
+            background: #121212;
+            text-align: center;
+            padding: 30px 20px;
+            border-top: 1px solid #333;
+        }
+        footer p {
+            font-size: 14px;
+            color: #666;
+        }
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+            nav {
+                margin-top: 10px;
+            }
+            .hero h1 {
+                font-size: 36px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">NOVA Nexus</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#insights">Insights</a>
+            <a href="#technologies">Technologies</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Shaping Tomorrow, Today</h1>
+    </section>
+
+    <div class="content">
+        <h2 id="insights">Welcome to NOVA Nexus</h2>
+        <p>NOVA Nexus is your go-to hub for cutting-edge articles, futuristic concepts, and emerging AI-driven innovations. Our mission is to deliver mind-expanding content and help you stay ahead in this fast-evolving digital world.</p>
+
+        <div class="blog-card">
+            <img src="images/ai revolution.jpg" alt="AI Revolution">
+            <h3>The Rise of Artificial Intelligence in Everyday Life</h3>
+            <p>From smart homes to intelligent traffic systems, AI is transforming how we live. Explore how AI reshapes industries, personal lives, and the future of work.</p>
+        </div>
+
+        <div class="blog-card">
+            <img src="images/cyber.jpg" alt="Cyber Worlds">
+            <h3>Entering the Cyber World: What’s Next?</h3>
+            <p>The fusion of virtual realities and augmented intelligence opens up experiences never imagined before. Dive into the next generation of interconnected spaces and digital lifestyles.</p>
+        </div>
+
+        <div class="blog-card" id="technologies">
+            <img src="images/innovation.jpg" alt="Innovations">
+            <h3>5 Futuristic Tech Trends That Will Change the Game</h3>
+            <p>From neural implants to quantum computing — discover five groundbreaking innovations that are redefining what's possible in the 21st century and beyond.</p>
+        </div>
+
+        <h2 id="contact">Contact Us</h2>
+        <p>Got a futuristic idea or want to collaborate? Reach out to us at <a href="mailto:contact@novanexus.com" style="color:#00ffe7">contact@novanexus.com</a> or follow us on social media!</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 NOVA Nexus. Powered by Vision & Code.</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling for in-page links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href'))
+                    .scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
