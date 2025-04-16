@@ -18,9 +18,9 @@ High-resolution visuals and a minimal UI come together to create a bold, impactf
 
 🖼️ Visuals Included
 
-- AI Revolution** – A humanoid robot holding a neural brain model.
-- Cyber** – A surreal triangle tunnel with data lines, representing cybernetic depth.
-- Innovation** – A plasma globe symbolizing futuristic ideas and human-tech interaction.
+- AI Revolution – A humanoid robot holding a neural brain model.
+- Cyber – A surreal triangle tunnel with data lines, representing cybernetic depth.
+- Innovation – A plasma globe symbolizing futuristic ideas and human-tech interaction.
 
 These images have been carefully selected to align with the theme and aesthetics of the project.
 
