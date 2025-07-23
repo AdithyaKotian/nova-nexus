@@ -3,8 +3,7 @@
 
 Welcome to the **AI Revolution** — a visually immersive and conceptually futuristic web experience, showcasing the fusion of artificial intelligence, cyber systems, and innovation through web design.
 
-#LIVE DEMO
-https://novanija.github.io/nova-nexus/
+
 
 🧠 Overview
 
